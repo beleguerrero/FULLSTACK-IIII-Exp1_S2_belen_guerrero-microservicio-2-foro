@@ -1,0 +1,17 @@
+package cl.duoc.mi_foro.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data 
+@NoArgsConstructor 
+@AllArgsConstructor 
+@Builder 
+public class ComentarioRequestOptionalDTO {
+
+    private String contenido;
+    private Boolean activo;
+
+}
